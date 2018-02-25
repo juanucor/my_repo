@@ -1,6 +1,6 @@
 <!DOCTYPE html><html><head>
 
-<title>Calculator</title><meta charset="utf-8">
+<title>Calculator X³ - X⁴</title><meta charset="utf-8">
 
 <script type="text/javascript">
 
@@ -12,18 +12,30 @@ num.value = Math.pow(num.value, 3);
 
 }
 
+function cuartapot() {
+
+var num = document.getElementById("n2");
+
+num.value = Math.pow(num.value, 4);
+
+}
+
 </script>
 
 </head>
 
 <body>
-<h1>Calculadora de ……Juan Miguel Núñez Corbi……</h1>
+<h1>Calculadora 2 de ……Juan Miguel Núñez Corbi……</h1>
 
 Number:
 
 <input type="text" id="n1"><p>
 
 <button onclick="cube()"> x^3 </button>
+
+<input type="text" id="n2"><p>
+
+<button onclick="cuartapot()"> x^4 </button>
 
 </body>
 
